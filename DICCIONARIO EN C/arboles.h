@@ -10,7 +10,7 @@ typedef struct _nodo{
 typedef Nodo* pNodo;
 /*
     Implementación del tipo de dato DATO, del cual se hará un vector de tipo
-    DATO de 27 elementos (uno para cada letra del abecedario)
+    DATO de 26 elementos (uno para cada letra del abecedario)
 */
 typedef struct{
     char letra;
