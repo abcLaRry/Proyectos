@@ -1,0 +1,16 @@
+Autor: Luis Darío Norrigan Larios
+
+BUSCAMINAS DE DOS JUGADORES
+Este proyecto tuvo el fin de implementar el uso práctico de:
+
+Listas tipo cola
+Manejo de archivos binarios
+    Creación de archivos binarios
+    Lectura de archivos binarios
+    Modificación de archivos binarios
+Uso de múltiples archivos .c y .h
+    Uso de antefijo "static"
+    Uso de antefijo "extern"
+Memoria dinámica
+
+No hay instrucciones sobre su realización ya que es un proyecto personal.
