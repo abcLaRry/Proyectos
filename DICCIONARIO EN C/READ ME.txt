@@ -1,0 +1,1 @@
+Diccionario usando ABB´s en lenguaje C, todas las especificaciones del proyecto están adjuntas en la imágen "imagen.png" dentro de la misma carpeta.
