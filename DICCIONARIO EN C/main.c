@@ -54,12 +54,12 @@ int menu()
         mostrarPalabras();
         break;
     case 'e':
-        infoPalabra(1);
         if(ini) goto error;
+        infoPalabra(1);
         break;
     case 'f':
-        infoPalabra(0);
         if(ini) goto error;
+        infoPalabra(0);
         break;
     case 'g':   fin();  return 0;
         break;
