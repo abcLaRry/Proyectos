@@ -227,17 +227,17 @@ static int buscarPalabra(char *palabra)
         palabra[i] = tolower((unsigned char) palabra[i]); // Convertimos a minúscula
 
     for(i=0; i<26; ++i)
-        if((char)i+97==diccionario[i].letra) break;  // Encontramos el árbol de su letra
+        if((char)i+97==palabra[0]) break;  // Encontramos el árbol de su letra
 
     pNodo reco=diccionario[i].raiz;
 
     while(reco!=NULL)
     {
+        if(!strcmp(palabra, reco->palabra))
+            cont++;
         if(strcmp(palabra, reco->palabra)<0)
             reco=reco->izq;
         else reco=reco->der;
-        if(!strcmp(palabra, reco->palabra))
-            cont++;
     }
 
     return cont;
